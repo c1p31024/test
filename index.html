@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="style.css" >
+
+<body>
+    <p class="label-title">アンケート
+    </p>
+    <div class="form-sample">
+      <p class="form-label"><span class="form-require">必須</span>氏名</p>
+      <input type="text" class="form-input"  placeholder="例）郷ひろみ">
+    </div>
+    <div class="form-radio">
+      <p class="form-label"><span class="form-require">必須</span>観測した病害虫を運ぶ鳥、虫</p>
+      <div class="radio-label">
+      　<label>
+        <input type="radio" name="job" value="dani">
+        ダニ
+      </label>
+      <label>
+        <input type="radio" name="job" value="student">
+        ハエ
+      </label>
+      <label>
+        <input type="radio" name="job" value="housewife">
+        蛾
+      </label>
+      <label for="sonota">
+        <input type="radio" name="job" value="other">
+        アブラムシ
+      </label>
+      <label>
+        <input type="radio" name="job" value="housewife">
+        蝶
+      </label>
+      <label>
+        <input type="radio" name="job" value="housewife">
+        シラミ
+      </label>
+     
+     </div>
+    </div>
+    
+    <div class="form-sample">
+      <p class="form-label last"><span class="form-require">必須</span>お問い合わせ内容</p>
+      <textarea class="form-textarea"></textarea>
+    </div>
+    <form action="success.html">
+    <input type="submit" class="form-Btn" value="送信する" 
+  >
+  </form>
+  
+</head>
+
+</body>
+</html>
